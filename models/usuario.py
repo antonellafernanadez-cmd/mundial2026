@@ -12,6 +12,8 @@ def __init__(self, nombre, email, password):
         self.nombre = nombre
         self.email = email
         self.password = password
+
+
         
 def serialize(self):
         return {
